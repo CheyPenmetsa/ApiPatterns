@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerREPRAPI", "CustomerREPRAPI\CustomerREPRAPI.csproj", "{F87F3226-1D47-403E-B4EB-716D75643560}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerREPRAPI", "CustomerREPRAPI\CustomerREPRAPI.csproj", "{F87F3226-1D47-403E-B4EB-716D75643560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerREPRAPITests", "CustomerREPRAPITests\CustomerREPRAPITests.csproj", "{59EFB23E-F49D-4D00-9085-DC8F655219F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerREPRAPITests", "CustomerREPRAPITests\CustomerREPRAPITests.csproj", "{59EFB23E-F49D-4D00-9085-DC8F655219F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediumVericalSliceApi", "FastEndpointsApi\MediumVericalSliceApi.csproj", "{117DA900-5438-481F-8F84-1EA59DEE7F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediumVericalSliceApi.BusinessLogic", "FastEndpointsApi.BusinessLogic\MediumVericalSliceApi.BusinessLogic.csproj", "{956F53D0-D5DA-4A5B-A0FA-381712BC978D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{59EFB23E-F49D-4D00-9085-DC8F655219F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59EFB23E-F49D-4D00-9085-DC8F655219F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59EFB23E-F49D-4D00-9085-DC8F655219F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117DA900-5438-481F-8F84-1EA59DEE7F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117DA900-5438-481F-8F84-1EA59DEE7F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117DA900-5438-481F-8F84-1EA59DEE7F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117DA900-5438-481F-8F84-1EA59DEE7F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{956F53D0-D5DA-4A5B-A0FA-381712BC978D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956F53D0-D5DA-4A5B-A0FA-381712BC978D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956F53D0-D5DA-4A5B-A0FA-381712BC978D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956F53D0-D5DA-4A5B-A0FA-381712BC978D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
